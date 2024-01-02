@@ -28,7 +28,6 @@ function Rowposter(props) {
                    <img src={`${imageurl+obj.backdrop_path}`} alt="poster" className={props.smallposter?"smallposter":'poster'}/>
                 )
             }
-           
         </div>
     </div>
   )
